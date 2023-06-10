@@ -1,0 +1,9 @@
+# CreateCheckoutKeyRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `RequestBody`                                                                                      | [*CreateCheckoutKeyCheckoutKeyInput](../../models/operations/createcheckoutkeycheckoutkeyinput.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `ProjectSlug`                                                                                      | *string*                                                                                           | :heavy_check_mark:                                                                                 | Project slug in the form `vcs-slug/org-name/repo-name`. The `/` characters may be URL-escaped.     |

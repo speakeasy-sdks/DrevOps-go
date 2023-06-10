@@ -1,0 +1,16 @@
+# GetProjectWorkflowTestMetrics200ApplicationJSONMostFailedTests
+
+
+## Fields
+
+| Field                                                                 | Type                                                                  | Required                                                              | Description                                                           |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `Classname`                                                           | *string*                                                              | :heavy_check_mark:                                                    | The class the test belongs to.                                        |
+| `FailedRuns`                                                          | *int64*                                                               | :heavy_check_mark:                                                    | The number of times the test failed                                   |
+| `File`                                                                | *string*                                                              | :heavy_check_mark:                                                    | The file the test belongs to.                                         |
+| `Flaky`                                                               | *bool*                                                                | :heavy_check_mark:                                                    | Whether the test is flaky.                                            |
+| `JobName`                                                             | *string*                                                              | :heavy_check_mark:                                                    | The name of the job.                                                  |
+| `P95Duration`                                                         | *float64*                                                             | :heavy_check_mark:                                                    | The 95th percentile duration, in seconds, among a group of test runs. |
+| `Source`                                                              | *string*                                                              | :heavy_check_mark:                                                    | The source of the test.                                               |
+| `TestName`                                                            | *string*                                                              | :heavy_check_mark:                                                    | The name of the test.                                                 |
+| `TotalRuns`                                                           | *int64*                                                               | :heavy_check_mark:                                                    | The total number of times the test was run.                           |
