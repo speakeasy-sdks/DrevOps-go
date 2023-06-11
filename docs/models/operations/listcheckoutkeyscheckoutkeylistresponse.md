@@ -1,0 +1,11 @@
+# ListCheckoutKeysCheckoutKeyListResponse
+
+A sequence of checkout keys.
+
+
+## Fields
+
+| Field                                                                                                                                 | Type                                                                                                                                  | Required                                                                                                                              | Description                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `Items`                                                                                                                               | [][ListCheckoutKeysCheckoutKeyListResponseCheckoutKey](../../models/operations/listcheckoutkeyscheckoutkeylistresponsecheckoutkey.md) | :heavy_check_mark:                                                                                                                    | N/A                                                                                                                                   |
+| `NextPageToken`                                                                                                                       | *string*                                                                                                                              | :heavy_check_mark:                                                                                                                    | A token to pass as a `page-token` query parameter to return the next page of results.                                                 |
