@@ -1,0 +1,10 @@
+# GetOrgSummaryDataRequest
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `OrgSlug`                                                                                        | *string*                                                                                         | :heavy_check_mark:                                                                               | Org slug in the form `vcs-slug/org-name`. The `/` characters may be URL-escaped.                 |
+| `ProjectNames`                                                                                   | [*GetOrgSummaryDataProjectNames](../../models/operations/getorgsummarydataprojectnames.md)       | :heavy_minus_sign:                                                                               | List of project names.                                                                           |
+| `ReportingWindow`                                                                                | [*GetOrgSummaryDataReportingWindow](../../models/operations/getorgsummarydatareportingwindow.md) | :heavy_minus_sign:                                                                               | The time window used to calculate summary metrics.                                               |
